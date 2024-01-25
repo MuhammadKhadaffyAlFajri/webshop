@@ -1,0 +1,90 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0px;
+  background-color: bla;
+}
+
+ 
+.flex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: navy;
+  color: white;
+  padding: 10px 20px;
+  height: 80px;
+
+
+}
+
+.logo {
+  font-size: 1.5em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  
+  
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+ 
+}
+
+.nav-menu a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: navy;
+}
+section.product {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+section.product img {
+  max-width: 50%;
+}
+
+section.product button {
+  background-color: navy;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+footer {
+  background-color: navy;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  height: 100px;
+}
+
+.flex-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-footer a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.flex-footer a:hover {
+  text-decoration: underline overline;
+  background-color: white;
+  color: navy;
+}
+  
